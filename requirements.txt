@@ -1,0 +1,14 @@
+Flask==2.0.1
+Jinja2==3.0.1
+Werkzeug==2.0.1
+gunicorn==20.1.0
+pymongo==3.12.0
+mongoengine==0.24.0
+'''
+Flask: The core Flask framework that enables building web applications.
+Jinja2: A templating engine used by Flask to render HTML templates.
+Werkzeug: A utility library that provides various useful tools for web development, used by Flask internally.
+gunicorn: A production-ready WSGI server to serve the Flask application.
+pymongo: The official MongoDB Python driver for interacting with the MongoDB database.
+mongoengine: A powerful ODM (Object-Document Mapper) for MongoDB, making it easier to work with MongoDB in a Pythonic way.
+'''
