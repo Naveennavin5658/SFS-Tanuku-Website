@@ -1,5 +1,5 @@
 '''
-Gallery blueprint handles all apis wrt to images
+Alumni blueprint handles all apis wrt to alumni registration
 '''
 from flask import Blueprint
 alumni_blueprint = Blueprint("alumni",__name__)
