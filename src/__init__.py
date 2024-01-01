@@ -50,8 +50,8 @@ def register_blueprints(app: Flask, docs: FlaskApiSpec):
     # with the Flask application instance (app)
 
 
-    app.register_blueprint(gallery_blueprint, url_prefix='/gallery')
-    app.register_blueprint(alumni_blueprint, url_prefix='/alumni')
-    app.register_blueprint(home_page_blueprint, url_prefix='/home')
-    app.register_blueprint(results_blueprint, url_prefix='/results')
-    app.register_blueprint(testimonials_blueprint, url_prefix='/testimonials')
+    app.register_blueprint(gallery_blueprint)
+    app.register_blueprint(alumni_blueprint)
+    app.register_blueprint(home_page_blueprint)
+    app.register_blueprint(results_blueprint)
+    app.register_blueprint(testimonials_blueprint)
